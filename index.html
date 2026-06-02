@@ -1022,7 +1022,7 @@
       albumImage.src = photos[albumIndex];
       albumCounter.textContent = `Foto ${albumIndex + 1} dari ${photos.length}`;
       albumText.textContent = albumNotes[albumIndex];
-      albumTitle.textContent = albumIndex === photos.length - 1 ? "Halaman terakhir buat Tiwi" : "Halaman kenangan buat Tiwi";
+      albumTitle.textContent = albumIndex === photos.length - 1 ? "Halaman terakhir khusus buat Hesty" : "Album Foto Khusus Buat Hestyanggy";
       albumLove.classList.toggle("show", albumIndex === photos.length - 1);
       nextPhoto.textContent = albumIndex === photos.length - 1 ? "Balik ke Awal Album" : "Geser Selanjutnya";
     }
@@ -1058,7 +1058,7 @@
 
     document.querySelectorAll("#sceneTwoChoices .choice").forEach((button) => {
       button.addEventListener("click", () => {
-        sceneTwoMessage.textContent = "Wah pilihan yang bagus, semoga taman mawar ini bikin hati kamu jadi lebih hangat yaa.";
+        sceneTwoMessage.textContent = "Wah pilihan yang bagus, semoga taman Bunga ini bikin hati kamu jadi lebih hangat yaa.";
         sceneTwoChoices.classList.add("hidden");
         sceneTwoNextWrap.classList.remove("hidden");
       });
